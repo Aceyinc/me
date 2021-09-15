@@ -1,169 +1,97 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
-#tryme {
-        background-image: url("./img/h2o.jpg");
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJECTS WEBSITE</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      #card1 {
+        background-image: url("./img/hat.jpg");
         width: 100%;
         height: 100%;
         background-size: cover;
         background-repeat: no-repeat;
-  /* background-image: url("/img/h2o.jpg"); */
-  /* width: 100%;
-  height: 100%; */
-  /* background-image: url('/img/out.jpg') ; */
-  /* color: #161623; */
-  color: #ffffff;
-  /* background-color: rgba(156, 48, 48, 0.05); */
-  background-color: #33b5e5;
-} 
+      }
+    </style>
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
-
-html {
-  font-family: "Lucida Sans", sans-serif;
-}
-
-.header {
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
-}
-
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.menu li:hover {
-  background-color: #0099cc;
-}
-
-.aside {
-  /* background-color: #33b5e5; */
-  /* background-image: url('/img/out.jpg') ; */
-  /* background-color: rgba(156, 48, 48, 0.05);
-  color: #ffffff; */
-  padding: 15px;
-  
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.footer {
-  background-color: #0099cc;
-  color: #ffffff;
-  text-align: center;
-  font-size: 12px;
-  padding: 15px;
-}
-
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1><a href="">ACEYINC</a> </h1>
-</div>
-
-<div class="row">
-  <div class="col-3 col-s-3 menu dropdown">
-    <button class="dropbtn">PROJECTS</button>
-    <ul>
-      <!-- <a href="https://piksy.herokuapp.com/"><li>The Gallery  </li></a> -->
-      <a href="./projects.html"><li>The Project Ace</li></a>
-      <a href="https://aceyinc.github.io/portf/"><li>The Socials</li></a>
-      <a href="https://trinityrace.github.io/gitSearch/"><li>The gitSearch </li> </a>
-      <a href="https://piksy.herokuapp.com/"> <li>The Gallery </li></a>
-    </ul>
-  </div>
-
-  <div class="col-6 col-s-9">
-    <h1>John Khamanj</h1>
-    <p>Every brand has stories to tell-stories that will not only engage, inform, suprise, delight and impact thier Audience,<hr> but that will also deliver on measurable business goals. And I am the conduit between brand and consumer. <hr>
-    I help clients find the subject and medium that best fits their unique idnetity, and then i produce high-quality content that meets their objectives</p>
-  </div>
-
-  <div id="tryme" class="col-3 col-s-12">
-    
-    <div class="aside">
-      <!-- <img  width='100%' height='100%' src="./img/h2o.jpg" alt="stay hydrated" /> -->
-      <h2>Who?</h2>
-      <p>John Khamanj</p>
-      <h2>What?</h2>
-      <p>I am a fullstack web developer.</p>
-      <h2>Where?</h2>
-      <p>Nairobi, Kenya.</p>
-      <h2>How?</h2>
-      <p> <a href="mailto:aceyinc@gmail.com?subject= &body=from%20website"> Email me! </a></p>
-      
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body id="bdy">
+    <div class="container">
+      <div id="card1" class="card">
+        <div class="content">
+          <h1>JOHN KAMANJA</h1>
+          <h2>000</h2>
+          <h3>Fullstack Web Developer.</h3>
+          <p> <a href="mailto:aceyinc@gmail.com?subject= &body=from%20website"> Email me! </a></p>
+          <p>Every brand has stories to tell-stories that will not only engage, inform, suprise, delight and impact thier Audience,
+            <br> but that will also deliver on measurable business goals. And I am the conduit between brand and consumer.
+            <br>I help clients find the subject and medium that best fits their unique idnetity,
+             and then i produce high-quality content that meets their objectives</p>
+          <a href="./projects.html">
+            <button type="button" class="btn">PROJECTS</button></a
+          >
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="footer">
-  <p>LET THERE BE CODE.  14/9 @2021</p>
-  <a href="./home.html">HOME</a> <hr>
-  <a href="./projects.html">PROjectACE</a>
-</div>
+    <nav id="footer" class="navbar fixed-bottom navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="./index.html">HOME</a>
+        <a href="https://www.instagram.com/aceyincc/">
+          <i class="fa fa-camera-retro fa-lg"></i
+        ></a>
+        <a class="navbar-brand" href="./index.html">
+          /* ACEYINK designs 2021 */</a
+        >
+        <a href="./projects.html">PROJECTS</a>
+      </div>
+    </nav>
 
-</body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.8,
+      });
+
+      //It also supports NodeList
+      // VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+    <!-- <footer>
+      /* ACEYINK designs 2021 */
+    </footer> -->
+  </body>
 </html>
